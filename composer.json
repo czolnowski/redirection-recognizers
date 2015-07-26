@@ -1,0 +1,21 @@
+{
+    "name": "mindweb/redirection-recognizers",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Czołnowski",
+            "email": "marcin@czolnowski.net"
+        }
+    ],
+    "require": {
+        "mindweb/subscriber": "dev-master",
+        "mindweb/recognizer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mindweb\\RedirectionRecognizers\\": "src"
+        }
+    }
+}
